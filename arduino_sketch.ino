@@ -245,7 +245,11 @@ void loop() {
         {
             inData.remove(inData.length() - 1, 1);
             lcd.setCursor(5,2);
-            lcd.print(inData);         
+            lcd.print(inData + (char)223 + 'C ');
+            lcd.setCursor(7,2);
+            lcd.print((char)223);
+            lcd.setCursor(8,2);
+            lcd.print("C ");  
             inData = "";
         }
         
@@ -254,7 +258,7 @@ void loop() {
         {
             inData.remove(inData.length() - 1, 1);
             lcd.setCursor(5,0);
-            lcd.print(inData + (char)223 + 'C ');          
+            lcd.print(inData);            
             inData = "";
         }
 
