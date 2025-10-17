@@ -1,5 +1,5 @@
-# arduinoHwInfo
-Arduino controlled hardware monitor for x64 Windows 10.
+# arduinoHwInfo Arduino Hardware Monitor for Windows
+Arduino controlled hardware monitor for x64 Windows 11.
 First implementation of arduino for CPU/GPU/FPS monitoring.
 Feel free to use my code for you projects.
 For the CPU/GPU information I used the https://github.com/LibreHardwareMonitor/LibreHardwareMonitor project.
@@ -9,7 +9,6 @@ My project is calibrated for a 16 cores, and a 20x4 i2c controller LCD display.
 Remember to download MSI Afterburner an launch it before this program to obtain the FPS values, and **always run arduinoHWInfo with admin privileges**.
 
 # Arduino Hardware Monitor for Linux
-
 This Python program replicates the functionality of the Windows C# ArduinoHwInfo application on Linux. It collects hardware information (CPU/GPU temperatures, loads, frequencies) and sends it to an Arduino via serial communication using the same format as the original Windows application.
 
 ## Features
