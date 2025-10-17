@@ -6,8 +6,8 @@ PartOf=graphical-session.target
 Type=simple
 Restart=always
 RestartSec=5
-ExecStart=/usr/bin/python3 /home/nemesisq3a/Sviluppo/arduinoHwInfo-master/ArduinoHwInfo/arduino_hw_info.py
-WorkingDirectory=/home/nemesisq3a/Sviluppo/arduinoHwInfo-master/ArduinoHwInfo
+ExecStart=/usr/bin/python3 /home/YOUR_USER/arduinoHwInfo/ArduinoHwInfo/arduino_hw_info.py
+WorkingDirectory=/home/YOUR_USER/arduinoHwInfo/ArduinoHwInfo
 
 [Install]
 WantedBy=graphical-session.target
