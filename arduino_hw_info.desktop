@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Arduino Hardware Monitor
+Comment=Hardware Monitor for Arduino
+Exec=/usr/bin/python3 /home/nemesisq3a/Sviluppo/arduinoHwInfo-master/ArduinoHwInfo/arduino_hw_info.py
+Icon=computer
+Terminal=false
+Type=Application
+Categories=Application;
+Hidden=false
+X-GNOME-Autostart-enabled=true

@@ -1,0 +1,13 @@
+[Unit]
+Description=Arduino Hardware Monitor
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/usr/bin/python3 /home/nemesisq3a/Sviluppo/arduinoHwInfo-master/ArduinoHwInfo/arduino_hw_info.py
+WorkingDirectory=/home/nemesisq3a/Sviluppo/arduinoHwInfo-master/ArduinoHwInfo
+
+[Install]
+WantedBy=graphical-session.target
