@@ -1,4 +1,5 @@
-# arduinoHwInfo Arduino Hardware Monitor for Windows
+# ArduinoHwInfo 
+# Arduino Hardware Monitor for Windows
 Arduino controlled hardware monitor for x64 Windows 11.
 First implementation of arduino for CPU/GPU/FPS monitoring.
 Feel free to use my code for you projects.
